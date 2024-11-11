@@ -1,0 +1,120 @@
+.iPhone16Pro-Container {
+    /* border: solid blue; */
+    position: relative; 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.iPhone16Pro-Container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    /* border: solid red; */
+}
+
+.iPhone16Pro-top-div {
+    z-index: 1;
+    position: relative;
+    top: -120px;
+}
+.headLine {
+    position: relative;
+    color: white;
+    z-index: 1;
+    font-size: 3.6em;
+    margin: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.002em;
+}
+
+.iPhone16Pro-Container .subHead {
+    /* font-size: 1.4em;
+    margin: 0;
+    margin-top: 10px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.002em;
+    color: white; */
+    font-size: 24px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    color: white;
+    margin-top: 10px;
+}
+
+.callout {
+    position: relative;
+    z-index: 2;
+    color: #86868b;
+    margin: 10px 0;
+    top: 130px;
+}
+
+.callout-available,
+.callout-ai {
+    color: #86868b;
+    font-size: 1.1em;
+    margin: 10px 0;
+    z-index: 1;
+}
+.callout-ai{
+    /* border: solid; */
+    position: relative;
+    top: -10px;
+}
+.callout-ai sup {
+    font-size: 0.8em;
+}
+
+.callout-button {
+    z-index: 1;
+    top: 120px;
+    position: relative;
+}
+
+.iPhone16pro-btn1 {
+    margin: 10px;
+    padding: 13px 22px;
+    font-size: 1em;
+    background-color: #006EDB;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 22px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.iPhone16pro-btn1:hover {
+    background-color: #0077ED;
+}
+
+.iPhone16pro-btn2 {
+    margin: 10px;
+    padding: 12px 22px;
+    font-size: 1em;
+    color: #006EDB !important;
+    border: solid 1px;
+    cursor: pointer;
+    border-radius: 22px;
+    background-color: transparent;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.iPhone16pro-btn2:hover {
+    background-color: #006EDB;
+    color: white !important;
+    border: solid #006EDB 1px;
+}

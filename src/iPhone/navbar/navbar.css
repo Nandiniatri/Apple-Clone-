@@ -1,0 +1,75 @@
+
+.nav{
+    background: #fafafc;
+    position: relative;
+    /* height: 132px; */
+    width: 100%;
+    /* margin-top: 14px;  */
+    /* border: solid red; */
+    bottom: 8px;
+}
+.label{
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: Helvetica, Arial, sans-serif;
+    display: block;
+    margin: 0;
+    padding: 16px 0;
+    height: 132px;
+    text-align: center;
+    z-index: 9987; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper{
+    height: 100%;
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-items{
+    list-style: none;
+    font-size: 0;
+    padding-block: 4px;
+    scrollbar-width: none;
+    height: 100%;
+}
+
+.nav-item{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+    height: 100%;
+}
+
+.nav-link{
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    height: 100%;
+}
+
+.nav-link img{
+    background-size: 38px 54px;
+}
+
+.label{
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: block;
+    margin: 0;
+    height: 32px;
+}

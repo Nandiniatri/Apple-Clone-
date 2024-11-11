@@ -1,0 +1,51 @@
+
+.gallery-Main-Container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    gap: 20px;
+    overflow-x:scroll;
+    padding: 47px;
+}
+.gallery-Main-Container::-webkit-scrollbar{
+    display: none;
+}
+.gallery-inner {
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    height: 110vh;
+}
+.ant-image .ant-image-img {
+    object-fit: cover; 
+    height: 110vh;
+    width: 380px;
+    border-radius: 25px;
+}
+.gallery-inner h3{
+    position: relative;
+    bottom: 660px;
+    left: 30px;
+    width: 300px;
+}
+.text-container{
+    position: relative;
+    bottom: 650px;
+    left: 30px;
+    width: 350px;
+    font-size: 14px;
+}
+.gallery-main-outer-div{
+    margin-top: 40px;
+}
+.gallery-outer-inner-div{
+    padding: 50px;
+}
+.gallery-outer-inner-div h1{
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(29,29,31);
+}

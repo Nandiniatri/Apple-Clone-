@@ -1,0 +1,50 @@
+.search-access{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: sans-serif;    
+}
+.search-access h2{
+    /* margin-bottom: 29px;
+    font-size: 30px;
+    opacity: 0.8;
+    color: black;
+    line-height: 30px; */
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: .004em;
+    line-height: 1.125;
+    padding: 75px 0 12px;
+    text-align: center;
+}
+.find-accessories{
+    width: 100%;
+    /* text-align: center; */
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.find-accessories input{
+    width: 45%;
+    /* border: solid; */
+} 
+
+.search-Conatiner {
+    width: 50%;
+    height: 3.29412rem;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    margin-bottom: 0.82353rem;
+    padding: 1.05882rem 0.94118rem 0 0.94118rem;
+    text-align: left;
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 10px;
+    border: solid #d2d2d7;
+    /* border: solid; */
+}

@@ -1,0 +1,21 @@
+.ribbon{
+    /* border: solid; */
+    /* background-color: rgb(245, 245, 247); */
+    background-color: white;
+    padding: 10px;
+}
+.ribbon-content-wrapper{
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.ribbon-content-wrapper p{
+    font-size: 14px;
+    line-height: 1.4285914286;
+    font-weight: 400;
+    letter-spacing: -0.016em;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}

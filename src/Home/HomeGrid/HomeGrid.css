@@ -1,0 +1,96 @@
+.homegrid-container{
+    /* border: solid red; */
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    gap: 15px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.homegrid-container .homegrid-inner-div{
+    /* border: solid blue; */
+    height: 600px;
+}
+.homegrid-container .homegrid-inner-div .inner-div1 img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    /* border: solid; */
+}
+
+.inner-div2{
+    /* border: solid red; */
+    position: relative;
+    bottom: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inner-div2 h2{
+    font-size: 35px;
+    line-height: 1.125;
+    font-weight: 580;
+    letter-spacing: .002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    /* border: solid blue; */
+}
+.inner-div2 p{
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.inner-div3 p{
+    /* border: solid; */
+    bottom: 230px;
+    position: relative;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.inner-div4 {
+    z-index: 1;
+    bottom: 200px;
+    position: relative;
+}
+
+.in-div4-btn1{
+    margin: 10px;
+    padding: 13px 22px;
+    font-size: 1em;
+    background-color: #006EDB;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 22px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.in-div4-btn1-btn1:hover {
+    background-color: #0077ED;
+}
+
+.in-div4-btn2 {
+    margin: 10px;
+    padding: 12px 22px;
+    font-size: 1em;
+    color: #006EDB !important;
+    border: solid 1px;
+    cursor: pointer;
+    border-radius: 22px;
+    background-color: transparent;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.in-div4-btn2-btn2:hover {
+    background-color: #006EDB;
+    color: white !important;
+    border: solid #006EDB 1px;
+}

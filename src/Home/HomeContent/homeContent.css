@@ -1,0 +1,22 @@
+.homeContent-Container{
+    margin-top: 50px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 29, 31);
+    font-style: normal;
+    padding: 10px;
+    text-align: center;
+}
+.homeContent-Container a{
+    color: #0071e3;
+    text-decoration: none;
+}
+.homeContent-Container sup a{
+    color: black;
+    font-size: 10px;
+}

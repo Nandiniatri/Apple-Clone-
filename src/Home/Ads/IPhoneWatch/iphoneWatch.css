@@ -1,0 +1,88 @@
+.iphoneWatch-Container{
+    /* border: solid; */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    line-height: 25px;
+}
+.iphoneWatch-Container .iphoneWatch-div1{
+    z-index: 1;
+    /* border: solid blue; */
+    /* margin-bottom: 60px; */
+    position: relative;
+    bottom: 136px;
+}
+.iphoneWatch-Container .iphoneWatch-div1 img{
+    /* border: solid; */
+    width: 55%;
+}
+.iphoneWatch-Container .iphoneWatch-div2{
+    /* border: solid red; */
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    bottom: 120px;
+}
+.iphoneWatch-Container .iPhoneWatch-btn2 .iphoneWatch-subhead{
+    border: solid;
+}
+
+.iphoneWatch-Container .iphoneWatch-button-div{
+    z-index: 1;
+    /* border: solid; */
+    /* margin-bottom: 200px; */
+    position: relative;
+    bottom: 100px;
+}
+.iPhoneWatch-btn1 {
+    margin: 10px;
+    padding: 13px 22px;
+    font-size: 1em;
+    background-color: #006EDB;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 22px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.iPhoneWatch-btn1:hover {
+    background-color: #0077ED;
+}
+
+.iPhoneWatch-btn2 {
+    margin: 10px;
+    padding: 12px 22px;
+    font-size: 1em;
+    color: #006EDB !important;
+    border: solid 1px;
+    cursor: pointer;
+    border-radius: 22px;
+    background-color: transparent;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.iPhoneWatch-btn2:hover {
+    background-color: #006EDB;
+    color: white !important;
+    border: solid #006EDB 1px;
+}
+
+
+
+.iphoneWatch-Container .iphoneWatch-div3 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    /* border: solid red; */
+}

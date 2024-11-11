@@ -1,0 +1,28 @@
+.access-level{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 15px;
+}
+.access-level h2{
+    opacity: 0.8;
+}
+.accessories{
+    margin-top: 50px;
+    width: 100%;
+    font-family: sans-serif;
+}
+.accessories-header{
+    text-align: center;
+    z-index: 1;
+}
+.arrow-down{ 
+    font-size: 20px;
+}
+.browse-all{
+    font-size: 19px;
+    opacity: 0.9;
+}

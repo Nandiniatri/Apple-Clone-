@@ -1,0 +1,195 @@
+/* .bannerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+}
+
+.banner-heading {
+    display: flex;
+}
+.banner-heading h2{
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600; 
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    top: 30px;
+}
+
+.banner-content-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden; 
+    transition: transform 0.5s ease; 
+}
+
+.banner-content-wrapper:hover {
+    transform: scale(0.95); 
+}
+
+.head {
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 100px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.banner-btn-a button{
+    border: none;
+    width: 40%;
+    height: 8vh;
+    color: black;
+    background-color: white;
+    border-radius: 23px;
+}
+.banner-btn-a button a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.banner-image img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    border-radius: 30px;
+}
+
+.banner-heading h2 {
+    font-size: 48px;
+    line-height: 1.083;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.banner-image a {
+    text-decoration: none;
+    font-size: 24px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.banner-content-heading .headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: 0.011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+} */
+
+
+.bannerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    /* border: solid; */
+}
+
+.banner-heading h2 {
+    margin-bottom: 20px; 
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.banner-content {
+    position: relative;
+    width: 100%; 
+    /* border: solid; */
+    padding: 30px;
+}
+
+.banner-image {
+    position: relative;
+    width: 100%; 
+    bottom: 60px;
+}
+
+.banner-image img {
+    width: 100%; 
+    height: 70vh; 
+    border-radius: 30px;
+    /* border: solid; */
+}
+
+.text-overlay {
+    position: absolute; 
+    top: 20%;
+    left: 20%;
+    /* color: white; */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.head {
+    max-width: 50%; 
+    padding-right: 20px; 
+    /* border: solid red; */
+    text-align: center;
+    position: relative;
+    top: 230px;
+    z-index: 1;
+}
+
+.banner-btn-a {
+    margin-top: 10px;
+}
+
+.banner-btn-a button {
+    background-color: rgb(245,245,247); 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 40px;
+    /* border: solid; */
+}
+
+.banner-btn-a button a {
+    color: black; 
+    text-decoration: none;
+    /* font-weight: bold;  */
+
+}
+
+.headline {
+    font-size: 28px; 
+    margin: 0;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}

@@ -1,0 +1,25 @@
+.detail-Container{
+    background-color: rgb(245, 245, 247);
+    /* border: solid; */
+    margin-top: 200vh;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 29px;
+    align-items: center;
+}
+
+.detail-Container .detail-inner li{
+    /* border: solid; */
+    font-size: 12px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: gray;
+}
+
+li{
+    list-style: none;
+}
